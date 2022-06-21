@@ -1,0 +1,118 @@
+.community_title {
+    padding-top: 2rem;
+    width: 421px;
+    margin: 0 auto;
+    text-align: center;
+}
+.community_title a {
+    text-decoration: none;
+    color: #217BF4;
+    font-size: 18px;
+}
+.community_title h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color:  #0A093D;
+}
+.community_title p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #656464;
+}
+.parralax {
+    background-image: url("../img/parallax.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 600px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.members_button {
+    width:474px;
+    display: flex;
+    background: #f2f7fe;
+    border-radius: 14px;
+    margin: 0 auto;
+    }
+.members_button button {
+    border: none;
+    opacity: 1;
+    color: #2F2C4A !important;
+    width: 150px;
+    background: transparent;
+
+}
+.members_button .active {
+    background-color:#217BF4 ;
+    color: white;
+}
+.card_main {
+    display: flex;
+}
+.card {
+    position: relative;
+    width: 270px;
+    background: #FFFFFF;
+    border: 2px solid rgba(243, 243, 243, 0.5);
+    border-radius: 14px;
+    margin: 2rem;
+    padding: 2rem;
+}
+/* yellow round */
+.card_first .el1 {
+    position: absolute;
+    top: 3rem;
+    left: 4rem;
+
+}
+/* foto */
+.card_first .card1 {
+    position: absolute;
+    top: 3.7rem;
+    left: 5rem;
+    }
+    
+.card_first .card1.second-members {
+    position: absolute;
+    top:3.3rem;
+    left: 4rem;
+}
+.card_first h6 {
+    margin-top: -.1rem;
+    font-weight: 600;
+    font-size: 24px;
+    width: 270px;
+    color: #2F2C4A;
+    text-align: center;
+}
+.card_first p {
+   cursor:  #2F2C4A;
+   font-weight: 400;
+    font-size: 16px;
+    width: 270px;
+    text-align: center;
+}
+ .card_first .vector8 {
+     position: absolute;
+    Width: 1.7rem;
+    Height: 9.25px;
+    z-index: 1;
+    margin-top: 13rem;
+    margin-left: 7.5rem;
+}
+.card_first .ellipse23 {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    margin-top: 12.5rem;
+    margin-left: 7.5rem;
+}
+@media only screen and (max-width: 898px) {
+    .members_button {
+        width: 90%;
+    }
+    .card_main {
+        flex-direction: column;
+    }
+}
+

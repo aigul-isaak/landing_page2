@@ -1,0 +1,109 @@
+footer {
+    background: #2B2B39;
+}
+.footer_main {
+    margin-top: 8rem;
+    color: white;
+    display: flex;
+    height: 226px;
+    justify-content: space-around;
+}
+.footer_item {
+    display: flex;
+    width: 668px;
+    margin-top: 3rem;
+}
+.footer_item a {
+    text-decoration: none;
+    color: rgba(231, 231, 231, 1);
+
+}
+.footer_item li {
+    justify-content:space-around ;
+    list-style: none;
+    left: 1.25%;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+}
+.footer_item2 {
+    width: 339px;
+    height: 218px;
+}
+.footer_item2 h6 {
+    color: rgba(231, 231, 231, 1);
+}
+.footer_link {
+    position: relative;
+    box-sizing: border-box;
+    width: 339px;
+    height: 48px;
+
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.85);;
+}
+.footer_item2 input {
+    background-color: #2B2B39;
+    border: transparent;
+}
+button {
+    width: 126px;
+    height: 46px;
+    background:  #FFFFFF;
+    border-radius: 12px;
+    margin-left: 2.2rem;
+    color:#2B2B39;
+}
+.footer_item3 {
+    background: #20202D;
+    height: 56px;
+    display: flex;
+    color: #FFFFFF; ;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_item3 p {
+    margin-left: 6rem;
+}
+
+.footer_log {
+    width: 143px;
+    height: 34px;
+}
+.footer_log img {
+    width: 143px;
+    height: 34px;
+    position: relative;
+    margin-top: .7rem;
+}
+.footer_log p {
+    position: absolute;
+    margin-top: -2.2rem;
+    margin-left: 2.8rem;
+    width: 103px;
+    font-weight:600 ;
+    font-size: 24px;
+}
+.footer_icons {
+    width: 168px;
+    height: 36px;
+    padding-right: 3rem;
+    padding-top: .6rem;
+}
+
+@media only screen and (max-width: 898px){
+    .footer_item {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 84%;
+    }
+    .footer_main {
+        flex-direction: column;
+        margin-left: 20px;
+        height: 100%;
+    }
+    .footer_item3 p {
+        margin-left:10px;
+    }
+}
